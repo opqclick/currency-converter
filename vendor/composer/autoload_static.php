@@ -21,6 +21,7 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
         ),
         'O' => 
         array (
+            'Opqclick\\CurrencyExchange\\Tests\\' => 32,
             'Opqclick\\CurrencyConverter\\' => 27,
         ),
         'G' => 
@@ -34,12 +35,16 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'Opqclick\\CurrencyExchange\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Opqclick\\CurrencyConverter\\' => 
         array (
