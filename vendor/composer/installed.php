@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'opqclick/currency-converter',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b24c99c3430be4722675b6d335601fbf8ce1c9c8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -44,9 +44,9 @@
             'dev_requirement' => false,
         ),
         'opqclick/currency-converter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b24c99c3430be4722675b6d335601fbf8ce1c9c8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
