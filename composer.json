@@ -10,8 +10,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Opqclick\\CurrencyConverter\\": "src/",
-            "Opqclick\\CurrencyExchange\\Tests\\" : "tests"
+            "App\\": "app/",
+            "Opqclick\\CurrencyConverter\\": "packages/opqclick/currency-converter/src"
         }
     },
     "require": {

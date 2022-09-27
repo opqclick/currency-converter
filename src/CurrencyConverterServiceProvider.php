@@ -13,10 +13,8 @@ class CurrencyConverterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // register Facade
-        $this->app->bind('currencyconverter', function($app) {
-            return new CurrencyConverter();
-        });
+        // register controller
+        $this->app->make('Opqclick\CurrencyConverter\CurrencyConverterController');
     }
 
     /**

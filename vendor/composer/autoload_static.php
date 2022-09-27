@@ -21,7 +21,6 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
         ),
         'O' => 
         array (
-            'Opqclick\\CurrencyExchange\\Tests\\' => 32,
             'Opqclick\\CurrencyConverter\\' => 27,
         ),
         'G' => 
@@ -29,6 +28,10 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -42,13 +45,9 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Opqclick\\CurrencyExchange\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
-        ),
         'Opqclick\\CurrencyConverter\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/packages/opqclick/currency-converter/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -61,6 +60,10 @@ class ComposerStaticInite591f9092bba79d774cb0e70ca4f7c96
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
