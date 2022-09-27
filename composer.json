@@ -18,6 +18,4 @@
         "guzzlehttp/guzzle": "7.5.x-dev"
     },
     "minimum-stability": "dev"
-
-
 }
