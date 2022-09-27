@@ -17,15 +17,5 @@
     "require": {
         "guzzlehttp/guzzle": "7.5.x-dev"
     },
-    "minimum-stability": "dev",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Opqclick\\CurrencyConverter\\CurrencyConverterServiceProvider"
-            ],
-            "aliases": {
-                "CurrencyConverter": "Opqclick\\CurrencyConverter\\Facades\\CurrencyConverter"
-            }
-        }
-    }
+    "minimum-stability": "dev"
 }
