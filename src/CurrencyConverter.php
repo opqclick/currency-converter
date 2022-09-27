@@ -2,17 +2,11 @@
 
 namespace Opqclick\CurrencyConverter;
 
-use App\Http\Controllers\Controller;
 use GuzzleHttp\Client;
 
-class CurrencyConverterController extends Controller
+class CurrencyConverter
 {
-    /**
-     * @param int $amount
-     * @param string $currency
-     * @return string
-     */
-    public function convert(int $amount, string $currency): string
+    public function convert(int $amount, string $currency)
     {
         $request_url = 'https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml';
 
