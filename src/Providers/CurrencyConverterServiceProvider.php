@@ -1,6 +1,6 @@
 <?php
 
-namespace Opqclick\CurrencyConverter;
+namespace Opqclick\CurrencyConverter\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class CurrencyConverterServiceProvider extends ServiceProvider
     public function register()
     {
         // register controller
-        $this->app->make('Opqclick\CurrencyConverter\CurrencyConverterController');
+        $this->app->make('Opqclick\CurrencyConverter\Controllers\CurrencyConverterController');
     }
 
     /**
@@ -24,6 +24,6 @@ class CurrencyConverterServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }
