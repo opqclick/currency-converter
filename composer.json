@@ -1,0 +1,19 @@
+{
+    "name": "opqclick/currency-converter",
+    "description": "The task is to create a Laravel package, this package\nwill expose an API GET endpoint that will receive the\nfollowing params:\n● amount\n● currency to exchange\nYou can assume the default currency is Euro.\nThis endpoint should return the exchange rate for the\ngiven amount in the same standard format as the\nother API endpoints.\nThe package must fetch the exchange rate of the day\nfrom the European Central Bank daily reference.\nThe package must have unit tests documentation\nand a readme.md file.\nThe package must be installed with composer as a\nlocal dependency.",
+    "autoload": {
+        "psr-4": {
+            "Opqclick\\CurrencyConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "will expose an API GET endpoint that will receive the",
+            "email": "opqclick@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.5.x-dev"
+    }
+}
